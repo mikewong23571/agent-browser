@@ -19,6 +19,10 @@ export const PAGE_TITLES: Record<string, string> = {
   next: "Next.js + Vercel",
   "native-mode": "Native Mode",
   changelog: "Changelog",
+  "integrations/browserless": "Browserless",
+  "integrations/browserbase": "Browserbase",
+  "integrations/browser-use": "Browser Use",
+  "integrations/kernel": "Kernel",
 };
 
 export function getPageTitle(slug: string): string | null {

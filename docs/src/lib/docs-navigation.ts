@@ -49,6 +49,15 @@ export const navigation: NavSection[] = [
     ],
   },
   {
+    title: "Integrations",
+    items: [
+      { name: "Browserless", href: "/integrations/browserless" },
+      { name: "Browserbase", href: "/integrations/browserbase" },
+      { name: "Browser Use", href: "/integrations/browser-use" },
+      { name: "Kernel", href: "/integrations/kernel" },
+    ],
+  },
+  {
     title: null,
     items: [{ name: "Changelog", href: "/changelog" }],
   },
